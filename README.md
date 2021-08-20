@@ -1,3 +1,5 @@
+this two code that can be useful: https://github.com/rohintangirala/eulerian-remote-heartrate-detection https://github.com/habom2310/Heart-rate-measurement-using-camera (only new_update section)
+
 ## Video Pulse Monitor
 
 This repository features a python script which is able to measure your heartbeat using a webcam or some other camera attached to a computer. Blood flow in the skin plays a role in determining skin color, as for example evident by the reddening of the skin when someone is blushing. Likewise, blood circulation triggers a similar yet far more subtle change in color. 
