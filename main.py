@@ -3,7 +3,7 @@ import numpy as np
 from scipy import signal
 
 #%% User Settings
-use_prerecorded		= True
+use_prerecorded		= False
 fs					= 30  # Sampling Frequency
 
 #%% Parameters
@@ -95,6 +95,7 @@ while True:
 		bpm       = frequencies[bpm_index]
 		snr       = utils.calculateSNR(normalized_amplitude,bpm_index)
 		utils.put_snr_bpm_onframe(bpm,snr,frame)
+		# utils.put_snr_bpm_onframe(83,snr,frame)
 
 	cv2.imshow('Camera',frame) 
 	
